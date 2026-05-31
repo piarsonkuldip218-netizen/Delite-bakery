@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E2A04D"/>
+      <stop offset="1" stop-color="#A85F1C"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#g)"/>
+  <!-- candle -->
+  <rect x="30" y="13" width="4" height="9" rx="2" fill="#FDF6EC"/>
+  <circle cx="32" cy="11" r="3" fill="#E36588"/>
+  <!-- cake top -->
+  <path d="M16 30c0-3.3 7.2-6 16-6s16 2.7 16 6v4H16z" fill="#FDF6EC"/>
+  <!-- cake body -->
+  <path d="M16 34h32v12c0 2.2-1.8 4-4 4H20c-2.2 0-4-1.8-4-4z" fill="#FBE9E7"/>
+  <!-- drips -->
+  <path d="M16 34c3 0 3 4 6 4s3-4 6-4 3 4 6 4 3-4 6-4 3 4 6 4v-4H16z" fill="#E36588"/>
+</svg>
